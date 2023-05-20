@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+body {
+    background-image:url(https://i.pinimg.com/736x/81/17/3a/81173a14c87afb1899821b7ce23efbf5.jpg);
+}
+
+header {
+    background: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem ;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.sistema-solar {
+    width: 15%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.foguete {
+    width: 15%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.navbar {
+    background: #272727;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.home, .sobre1, .mais {
+    font-family: 'Bruno Ace', cursive;
+    color: rgb(182, 179, 179);
+    padding: 0 3rem 0 3rem;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sobre2 {
+    background-color: #3a3a3a;
+    margin-top: 100px;
+    margin: 4rem 3rem 0 3rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.astronomia {
+    display: grid;
+    width: 20%;
+
+}
+
+.titulosobre {
+    color: rgb(221, 218, 218);
+    text-transform: uppercase;
+    font: bolder;
+    font-size: 50px;
+    display: grid;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.textosobre {
+    
+    color: whitesmoke;
+    font-size: larger;
+    display: grid;
+    padding-right: 50px;
+}
+
+.planetas {
+    background-color: #3a3a3a;
+    margin-top: 100px;
+    margin: 4rem 3rem 3rem 3rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    display: block;
+}
+
+.integrantes {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding-bottom: 70px;
+
+}
+
+.imagemplanetas {
+    width: 20%;
+    display: inline-flex;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.tituloplanetas1, .tituloplanetas2 {
+    color: rgb(221, 218, 218);
+    text-transform: uppercase;
+    font: bolder;
+    font-size: 50px;
+    display: inline-flex;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.textoplanetas1, .textoplanetas2 {
+    color: whitesmoke;
+    font-size: larger;
+    display: inline-flex;
+    padding-right: 50px;
+}
+
+
+footer {
+    background-color: #272727;
+    padding:  4rem 4rem 4rem;
+    text-align: center;
+    color: white;
+}
+
+.icons {
+    width: 5%;
+    align-items: center;
+    display: inline-block;
+}
