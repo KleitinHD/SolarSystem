@@ -18,12 +18,6 @@ header {
     scale: 130%;
 }
 
-.imagens:active {
-    display: fixed;
-    scale: 500%;
-    align-self: center;
-}
-
 .imagens-icon {
     width: 15%;
 }
