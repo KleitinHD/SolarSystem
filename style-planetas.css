@@ -9,8 +9,7 @@ header {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem ;
+    padding: 1.5rem 0px 1.5rem 0px;
 }
 
 .imagens {
@@ -19,13 +18,19 @@ header {
     scale: 130%;
 }
 
+.imagens:active {
+    display: fixed;
+    scale: 500%;
+    align-self: center;
+}
+
 .imagens-icon {
     width: 15%;
 }
 
-.titulo {
+.titulo, .satelites-titulo {
     text-align: center;
-    font-size: 5.5rem;
+    font-size: 5.3rem;
     text-transform: uppercase;
     font-weight: bolder;
     font-family: 'Bruno Ace', cursive;
@@ -34,14 +39,14 @@ header {
 .navbar {
     background: #272727;
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: 10px 0px 10px 0px;
 }
 
-.home:hover,.sobre1:hover, .mais:hover, .satelites:hover{
+.home:hover,.sobre1:hover, .mais:hover, .satelites:hover, .planetas1:hover{
     color: white;
 }
 
-.home, .sobre1, .mais, .satelites{
+.home, .sobre1, .mais, .satelites, .planetas1{
     font-family: 'Bruno Ace', cursive;
     color: rgb(182, 179, 179);
     padding: 0 3rem 0 3rem;
@@ -112,7 +117,7 @@ header {
     font: bolder;
     font-size: 50px;
     display: inline-flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .textoplanetas1,.textoplanetas2, .texto-satelites {
@@ -124,17 +129,15 @@ header {
 }
 
 .satelites2 {
-    margin: 3rem 1.5rem 3rem 1.5rem;
-    border-radius: 2rem;
+    padding: 1.5rem 0px 1.5rem 0px;
     background-color: #3a3a3a;
     font-family: 'Bruno Ace', cursive;
     color: rgb(0, 0, 0);
-    padding: 10px 3rem 10px 3rem;
     font-size: larger;
     font-weight: bold;
     text-decoration: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -142,14 +145,6 @@ header {
     width: 15%;
     padding: 15px 0px 15px 0px;
 
-}
-.satelites-titulo {
-    font-size: 5.5rem;
-    text-align: center;
-    margin: 1.5rem;
-    padding: 1.5rem 0px 1.5rem 0px;
-    border-radius: 2rem;
-    display: inline-flex;
 }
 
 .oque {
@@ -190,22 +185,17 @@ footer {
     padding-top: 20px;
 }
 
-.icons:hover {
+.icons:hover, .text:hover {
     transition: 530 ms;
     scale: 110%;
+    color: white;
 }
 
-.text, .text a{
+.text {
     display: block;
-    margin: 25px;
     text-decoration: none;
-    
 }
 
 a {
     margin: 25px;
-}
-
-.text:hover {
-    color: white;
 }
